@@ -1,11 +1,6 @@
 # Building a LangChain Chat AI Agent Using Web Scraped Data
 
 
-## Beckend
-
-This project focuses on stylizing motions.
-
-
 ## Installation Guide
 
 Follow these steps to install and set up the project:
@@ -13,7 +8,7 @@ Follow these steps to install and set up the project:
 1. **Clone the project repository:**
 
    ```bash
-   git clone git@github.com:XRSPACE-Inc/tp-five-pm-stylized-motion-creation.git
+   git clone git@github.com:bob30727/langchain.git
 
 2. Pre-requisites:
 
