@@ -11,6 +11,14 @@ Follow these steps to install and set up the project:
    git clone git@github.com:bob30727/langchain.git
 
 2. use vs code to build docker container
+   after get into container
+```
+ollamer serve
+```
+and
+```
+ollamer pull llama3.1
+```
    ![image](https://github.com/user-attachments/assets/868c2008-9ae7-4ecd-a44d-f6b96c94c786)
    
 
