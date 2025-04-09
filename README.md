@@ -10,11 +10,18 @@ Follow these steps to install and set up the project:
    ```bash
    git clone git@github.com:bob30727/langchain.git
 
-2. get json from wed:
+2. use vs code to build docker container
+   ![image](https://github.com/user-attachments/assets/868c2008-9ae7-4ecd-a44d-f6b96c94c786)
+   
 
-    run web_crawler_to_json.py then get web_crawler_1.json
+
+4. get json from wed:
+
+    run web_crawler_to_json.py 
+then you will get 
+web_crawler_1.json
 ```bash
-    [
+[
   {
     "name": "桃園月眉人工濕地生態公園",
     "introduction": "如天空之鏡般的漸層落羽松絕美倒影，湖邊375棵落羽松林變幻萬千的色彩、夢幻湖畔風光彷彿置身小歐洲～近年新興秘境！",
@@ -77,7 +84,7 @@ Follow these steps to install and set up the project:
 ]
 ```
 
-4. Build Docker image
+3. Build Docker image
 ```bash
     cd back_end_motion_stylization
     docker build -t mcm-ldm-backend -f ./dockerfile_server ./ --no-cache
